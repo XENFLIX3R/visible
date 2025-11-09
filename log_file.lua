@@ -11,33 +11,18 @@ end
 local log_data_file = writefile("dioxide/" .. file_name..".txt", timestamp .."Initialization successful")
 
 function log_file:write(str, trace_name)
-    if trace_name then
-		timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : ["..trace_name.."] : [TRACE]: " 
-	    appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
-	else
-		timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : [DIOXIDE] : [TRACE]: " 
-	    appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
-	end
+	timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : ["..trace_name or "DIOXIDE".."] : [TRACE]: " 
+	appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
 end
 
 function log_file:warn(str, trace_name)
-    if trace_name then
-		timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : ["..trace_name.."] : [WARN]: " 
-	    appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
-	else
-		timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : [DIOXIDE] : [WARN]: " 
-	    appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
-	end
+	timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : ["..trace_name or "DIOXIDE".."] : [WARN]: " 
+	appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
 end
 
 function log_file:error(str, trace_name)
-    if trace_name then
-		timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : ["..trace_name.."] : [ERROR]: " 
-	    appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
-	else
-		timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : [DIOXIDE] : [ERROR]: " 
-	    appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
-	end
+	timestamp = "[".. os.date("%Y-%m-%d %H:%M:%S") .."] : ["..trace_name or "DIOXIDE".."] : [ERROR]: " 
+	appendfile("dioxide/"..file_name..".txt", "\n" .. timestamp .. str)
 end
 
 return log_file
