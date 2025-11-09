@@ -1,0 +1,82 @@
+Zerion.WTF Terms Of Service.
+Zerion.WTF Terms of Service (TOS)
+By using Zerion.WTF, you agree to follow these terms.
+Violating any of these rules may result in suspension or a permanent blacklist.
+
+Standard TOS
+Limited Command Access
+Standard users are restricted from using certain commands, including but not limited to:
+kill all
+bring all
+ban all
+chat all
+You cannot use :all cmds | 3 Kills > Every 15 secs
+
+No External Executors
+External executors are prohibited, as they prevent staff from monitoring script execution.
+
+No Script Viewers
+Scripts such as Dex that allow modification or deletion of game elements are banned.
+
+No NSFW Scripts
+Scripts like Neko are strictly prohibited to prevent moderation issues within our games.
+
+No Map Changers
+Modifying or replacing the entire game map is not permitted.
+==========
+Premium TOS
+Full Command Access
+Premium users can use all commands, including:
+view all
+bring all
+Only 5 :all cmds every hour | 15 Kills > Every 35 secs
+
+No External Executors
+Even Premium users must follow execution rules; external executors are still not allowed.
+
+No Unauthorized Game Modifications
+Despite having access to more commands, Premium users are still prohibited from:
+Modifying the game map entirely
+Executing destructive scripts
+
+No Script Viewers
+Scripts like Dex are banned as they allow modification or deletion of game elements.
+
+Limited Command Usage
+Premium users can use all commands but cannot do unnecessary commands.
+Ban players
+Kick players
+Force players to leave the game
+==========
+Rules That Apply to Both Plans
+No Game Stealing
+Running scripts that insert backdoor modules or infect our servers is strictly prohibited.
+
+No Game Leaking/Snitching
+Discussing server-side exploits, exposing exploits to staff, or leaking game details via any platform will result in a permanent blacklist.
+
+No Purchase Prompts
+Creating external purchase prompts for personal profit will lead to a blacklist.
+
+No Server-Destroying Scripts
+Any action that disrupts the server is strictly prohibited, including:
+Decal spam
+Hint/message spamming
+Jumpscaring players
+Blasting loud music
+Skybox modification
+Part unanchoring
+
+No Mass Kicking/Banning
+Scripts that mass kick, ban, or kill players are not allowed.
+
+No Mass Teleporting
+Large-scale teleportation scripts are strictly prohibited.
+
+No Unauthorized Script Execution
+Any attempt to bypass restrictions and execute prohibited scripts will result in immediate suspension or blacklist.
+
+By using our software, you consent to these Terms of Service. Failure to comply may result in a temporary or permanent blacklist.
+
+ — 7/19/2025 4:50 PM UPDATE
+Only 5 :all cmds every 30 minutes | 15 Kills > Every 35 secs | Only for premium.
